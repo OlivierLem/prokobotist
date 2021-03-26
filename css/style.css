@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*--       Index.html       --*/
+
+
+
+
+/*--       Comparatif.html       --*/
+.comparatif{
+    margin-bottom: 10rem;
+}
+.comparatif h1{
+    font-size: 2.2rem;
+    background: #000;
+    color: #fff;
+    width: fit-content;
+    padding: 0.8rem 2.5rem;
+    margin-top: 4rem;
+    margin-left: 37vw;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+.comparatif > div{
+    display: flex;
+    margin-left: 15vw;
+    
+}
+.comparatif > div div{
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    border: solid black 4px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-left: 12rem;
+}
+
+.comparatif > div div img{
+    width: 23rem;
+}
+.comparatif > div div:last-of-type img{
+    width: 23rem;
+    border: solid white 10px;
+}
+.comparatif > div div > *:not(.comparatif > div div img){
+    margin-left: 1.5rem;
+}
+
+.comparatif > div div p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.comparatif > div div p:first-of-type{
+    margin-bottom: 2rem;
+}
+
+.comparatif > div div ul > li{
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    margin-left: -1.54rem;
+    list-style-type: "- ";
+}
+
+.comparatif > div div p:last-of-type{
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.comparatif > div div p > span{
+    font-size: 2rem;
+}
+
+.resultat{
+    display: flex;
+    background-color: #e6e6e6;
+    
+}
+.resultat__text{
+    margin-left: 22rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.resultat__text h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.resultat__text p{
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+    word-spacing: 2px;
+}
+
+.resultat__text button{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.7rem 1.8rem;
+    border: solid black 2px;
+    border-radius: 15px;
+    font-family: inherit;
+    letter-spacing: 1px;
+    transition: color ease-in-out .35s;
+    transition: background-color ease-in-out .35s;
+}
+.resultat__text button:hover{
+    background-color: white;
+    border: solid black 2px;
+    color: #000;
+    transition: color ease-in-out .35s;
+    transition: background-color ease-in-out .35s;
+}
+.resultat > div {
+    width: 20rem;
+}
+.resultat img{
+    width: 32.1rem;
+    margin-top: 5rem;
+    margin-left: 24rem;
+    border: solid black 5px;
+}
