@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -114,15 +116,13 @@ a{
     border-radius: 15px;
     font-family: inherit;
     letter-spacing: 1px;
-    transition: color ease-in-out .35s;
-    transition: background-color ease-in-out .35s;
+    transition: color ease-in-out .35s, background-color ease-in-out .35s;
 }
 .resultat__text button:hover{
     background-color: white;
     border: solid black 2px;
     color: #000;
-    transition: color ease-in-out .35s;
-    transition: background-color ease-in-out .35s;
+    transition: color ease-in-out .35s, background-color ease-in-out .35s;
 }
 .resultat > div {
     width: 20rem;
@@ -132,4 +132,79 @@ a{
     margin-top: 5rem;
     margin-left: 24rem;
     border: solid black 5px;
+}
+
+
+/*-- Formulaire --*/
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Martel', serif; ;
+    font-weight: 900;
+}
+
+.formulaire h3{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.formulaire p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.formulaire form{
+    display: flex;
+    width: 66rem;
+    flex-direction: column;
+    margin-left: 26rem;
+    font-weight: bold;
+}
+.formulaire form *{
+    color: #000;
+    background-color: #fff;
+    border: solid white 2px;
+    margin-bottom: 15px;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    font-weight: 700;
+    outline: none;
+    transition: color ease-in-out .3s, background-color ease-in-out .3s;
+}
+.formulaire form *:focus:not(button){
+    color: #fff;
+    background-color: #000;
+    transition: color ease-in-out .3s, background-color ease-in-out .3s;
+}
+.formulaire form *::placeholder{
+    padding-top: .3rem;
+    color: #000;
+}
+.formulaire form textarea{
+    resize: none;
+}
+
+.formulaire form button{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-left: auto;
+    padding: 1.2rem 4.3rem;
+    border: solid white 2px;
+    transition: color ease-in-out .3s, background-color ease-in-out .3s;
+}
+
+.formulaire form button:hover{
+    color: #fff;
+    background-color: #000;
+    transition: color ease-in-out .3s, background-color ease-in-out .3s;
+
 }
