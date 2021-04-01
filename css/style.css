@@ -37,6 +37,7 @@ header img{
 .header_text a{
     margin-left: 30px;
 }
+
 .header_text a:hover{
     color: #5862a3;
 }
