@@ -3,20 +3,129 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+    font-family: "SitkaB";
+}
+@font-face {
+ font-family: "SitkaB";
+ src: url("../font/SitkaB.ttc");
 }
 
 a{
     text-decoration: none;
     color: #000;
 }
-
+.flex{
+    display: flex;
+}
+/*--       Header           --*/
+header{
+    display: flex;
+    background-color: white;
+    padding-left: 50px;
+    font-size: 20px;
+    height: 80px;
+}
+header img{
+    width: 24%;
+}
+.header_text{
+    margin-top: 28px;
+    margin-left: 40vw;
+}
+.header_text a{
+    margin-left: 30px;
+}
+.section1{
+    background-color: black;
+    height: 90vh;
+    color: white;
+    text-align: center;
+}
+.section1 h1{
+    margin-top: 35vh;
+    font-size: 60px;
+}
+.section1 p{
+    font-size: 20px;
+}
 /*--       Index.html       --*/
 
-
-
-
+.section2{
+    background-color: white;
+    height: 100vh;
+    text-align: center;
+}
+.section2 h1{
+    margin-top: 80px;
+}
+.section2 img{
+    width: 250px;
+    margin-top: 20px;
+}
+.section2 div div{
+    margin: 60px;
+}
+.section2 div div #bas{
+    margin-top: 60px;
+}
+.section2 p{
+    margin-top: 80px;
+}
+.section2 #deux{
+    margin-top: 39px;
+}
+.section2 #trois{
+    margin-top: 48px;
+}
+.section2 #quatre{
+    margin-top: 90px;
+}
+.section3{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.section3 .blanc{
+    height: 300px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.section3 .promo{
+    margin-left: 200px;
+}
+.section3 img{
+    height: 100%;
+}
+.section3 .blanc p{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -90px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section4{
+    height: 100vh;
+    text-align: center;
+}
+.section4 img{
+    height: 300px;
+}
+.section4 div div{
+    width: 50%;
+}
+.section4 div{
+    margin-top: 40px;
+}
+.section4 p{
+    font-size: 15px;
+    width: 400px;
+    margin: auto;
+}
 /*--       Comparatif.html       --*/
 .comparatif{
     margin-bottom: 10rem;
