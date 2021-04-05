@@ -61,6 +61,9 @@ header img{
     height: 100vh;
     text-align: center;
 }
+.section2 .flex{
+    margin-left: 8%;
+}
 .section2 h1{
     margin-top: 80px;
 }
@@ -99,7 +102,7 @@ header img{
     margin-left: 20px;
 }
 .section3 .promo{
-    margin-left: 200px;
+    margin-left: 15%;
 }
 .section3 img{
     height: 100%;
@@ -281,7 +284,7 @@ section h2{
     display: flex;
     width: 66rem;
     flex-direction: column;
-    margin-left: 26rem;
+    margin:auto;
     font-weight: bold;
 }
 .formulaire form *{
